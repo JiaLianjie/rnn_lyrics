@@ -21,7 +21,7 @@ def pick_top_n(preds, top_n=5):
     return c
 
 # 读数据
-file_path = '.\\jaychou_lyrics.txt'
+file_path = '../input/jaychou'
 # file_path = 'D:\\myproject\\dataset\\corpus\\詩經.txt'
 with open(file_path, 'r', encoding='utf8') as f:
     corpus = f.read()
